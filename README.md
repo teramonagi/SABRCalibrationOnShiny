@@ -11,7 +11,10 @@ If you want to run this code on your computer, run the code below:'
     library(shiny)
     runGitHub("SABRCalibrationOnShiny","teramonagi")
 
+You can also check this application on the web.
+
+- http://spark.rstudio.com/teramonagi/SABROnShiny/
 
 ## References 
-        p(HTML('<ul>'),
+
 - [Managing Smile Risk, P. Hagan et al(pdf)](http://www.math.columbia.edu/~lrb/sabrAll.pdf)
