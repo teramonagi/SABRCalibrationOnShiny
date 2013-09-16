@@ -43,9 +43,10 @@ shinyUI(pageWithSidebar(
         p('Souce code for this application at',
           a('GitHub', href='https://github.com/teramonagi/SABRCalibrationOnShiny', target="_blank")),
         p('If you want to run this code on your computer, run the code below:',
-        code('library(shiny)'),br(),
-        code('runGitHub("SABRCalibrationOnShiny","teramonagi")")'),
-        br(),
+          br(),
+          code('library(shiny)'),br(),
+          code('runGitHub("SABRCalibrationOnShiny","teramonagi")')
+        ),br(),
         strong('References'),
         p(HTML('<ul>'),
         HTML('<li>'),a('Managing Smile Risk, P. Hagan et al(pdf)', href="http://www.math.columbia.edu/~lrb/sabrAll.pdf", target="_blank"),HTML('</li>'),
