@@ -1,4 +1,17 @@
-SABRCalibrationOnShiny
-======================
+# SABR calibration on Shiny
 
-SABR model calibration on shiny
+## About
+This application demonstrates to what extent [SABR model](http://en.wikipedia.org/wiki/SABR_volatility_model) can fit the market IV structures
+
+## Code
+Souce code for this application at [GitHub](https://github.com/teramonagi/SABRCalibrationOnShiny)
+
+If you want to run this code on your computer, run the code below:'
+
+    library(shiny)
+    runGitHub("SABRCalibrationOnShiny","teramonagi")
+
+
+## References 
+        p(HTML('<ul>'),
+- [Managing Smile Risk, P. Hagan et al(pdf)](http://www.math.columbia.edu/~lrb/sabrAll.pdf)
